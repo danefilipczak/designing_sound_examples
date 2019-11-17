@@ -5,4 +5,5 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                   [overtone "0.10.6"]]
-  :repl-options {:init-ns designing-sound.core})
+  :repl-options {:init-ns ds.core
+                  :init (use 'overtone.live)})
