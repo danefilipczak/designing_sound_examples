@@ -1,0 +1,1 @@
+{ SinOsc.ar(2500) * LFPulse.ar(5, 0.5) * 0.2 !2 }.play
